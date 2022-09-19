@@ -76,10 +76,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09e695bedcc1a484882973ba0e732169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainThrust: 1000
-  rotationThrust: 150
-  mainEngine: {fileID: 8300000, guid: 00201671ac3e1384e95633d1e6c42ced, type: 3}
-  mainEngineParticles: {fileID: 7103690193129763974}
+  _mainThrust: 1000
+  _rotationThrust: 100
+  _mainEngine: {fileID: 8300000, guid: 00201671ac3e1384e95633d1e6c42ced, type: 3}
+  _mainEngineParticles: {fileID: 7103690193129763974}
 --- !u!82 &9074563931809184147
 AudioSource:
   m_ObjectHideFlags: 0
@@ -188,11 +188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a3d28da0ed3d89419ad12461c5e1be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelLoadDelay: 2
-  success: {fileID: 8300000, guid: 2b5d5dc9ad54701448fabfd93c3b5664, type: 3}
-  crash: {fileID: 8300000, guid: ca99f9fda49b6774c86f473bf5e7d758, type: 3}
-  successParticle: {fileID: 1350212544710938150}
-  crashParticle: {fileID: 244207539062204332}
+  _levelLoadDelay: 2
+  _success: {fileID: 8300000, guid: 2b5d5dc9ad54701448fabfd93c3b5664, type: 3}
+  _crash: {fileID: 8300000, guid: ca99f9fda49b6774c86f473bf5e7d758, type: 3}
+  _successParticle: {fileID: 1350212544710938150}
+  _crashParticle: {fileID: 244207539062204332}
 --- !u!114 &6032809567969386135
 MonoBehaviour:
   m_ObjectHideFlags: 0
