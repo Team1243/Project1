@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a3d28da0ed3d89419ad12461c5e1be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelLoadDelay: 1
+  _levelLoadDelay: 2
   _success: {fileID: 8300000, guid: 2b5d5dc9ad54701448fabfd93c3b5664, type: 3}
   _crash: {fileID: 8300000, guid: ca99f9fda49b6774c86f473bf5e7d758, type: 3}
   _successParticle: {fileID: 1350212544710938150}
