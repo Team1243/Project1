@@ -32,6 +32,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1459639389621297864}
   - {fileID: 120594478311695990}
@@ -188,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a3d28da0ed3d89419ad12461c5e1be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelLoadDelay: 2
+  _levelLoadDelay: 3
   _success: {fileID: 8300000, guid: 2b5d5dc9ad54701448fabfd93c3b5664, type: 3}
   _crash: {fileID: 8300000, guid: ca99f9fda49b6774c86f473bf5e7d758, type: 3}
   _successParticle: {fileID: 1350212544710938150}
@@ -234,6 +235,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.7, y: 2, z: 0.7}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2263108914210907026}
   m_RootOrder: 0
@@ -257,6 +259,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
