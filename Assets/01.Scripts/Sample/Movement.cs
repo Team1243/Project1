@@ -12,7 +12,9 @@ public class Movement : MonoBehaviour
 
     private Rigidbody _rb;
     private AudioSource _audioSource;
-    
+
+    public bool isBooster = false;
+
     private void Start()
     {
         _rb = GetComponent<Rigidbody>();
@@ -29,10 +31,12 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
+            isBooster = true;
             StartThrust();
         }
         else
         {
+            isBooster = false;
             StopThrust();
         }
     }
