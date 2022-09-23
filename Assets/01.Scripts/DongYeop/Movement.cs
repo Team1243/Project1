@@ -15,12 +15,8 @@ public class Movement : MonoBehaviour
 
     [SerializeField] private Rotation _rotation = Rotation.pc; //자이로스코프로 방향을 조절할지 키보드로 조절할지 선택
 
-    [SerializeField] private TextMeshProUGUI _tmp;
-
     private Rigidbody _rb;
     private AudioSource _audioSource;
-
-    private Vector3 _gyroscopeAngle;
 
     public bool isBooster = false;
 
@@ -42,8 +38,8 @@ public class Movement : MonoBehaviour
             GyroscopeRotation();
             ProcessThrustMobile();
         }
-
-        _tmp.text = _gyroscopeAngle.ToString();
+        else
+            Debug.LogError("현재 열거형변수 Rotation이 비어 있습니다.");
     }
 
     #region PC
@@ -84,8 +80,9 @@ public class Movement : MonoBehaviour
     #region Mobile
     private void GyroscopeRotation() //저이로스코프를 이용하여 로켓의 방향을 조절합니다 (아직 구현 안 
     {
-        _gyroscopeAngle.z += Input.gyro.rotationRate.x;
-        gameObject.transform.rotation = Quaternion.Euler(_gyroscopeAngle);
+        float zRotation;
+        zRotation = Input.acceleration.x * _rotationThrust;
+        gameObject.transform.rotation = Quaternion.Euler(0, 0, -zRotation);
         ThrustAudio();
     }
 
