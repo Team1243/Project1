@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/00.Scenes/HeeSoo/HeeSoo.unity
+    path: Assets/00.Scenes/HeeSoo/HeeSoo1.unity
     guid: 5ebca5b388612434b9673d7c83da263e
   - enabled: 1
     path: Assets/00.Scenes/DongYeop/DongYeop.unity
