@@ -82,7 +82,7 @@ MonoBehaviour:
   _rotationThrust: 100
   _mainEngine: {fileID: 8300000, guid: 00201671ac3e1384e95633d1e6c42ced, type: 3}
   _mainEngineParticles: {fileID: 7103690193129763974}
-  _rotation: 1
+  _rotation: 0
   isBooster: 0
 --- !u!82 &9074563931809184147
 AudioSource:
