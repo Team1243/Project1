@@ -15,19 +15,29 @@ public class Movement : MonoBehaviour
 
     [SerializeField] private Rotation _rotation = Rotation.pc; //자이로스코프로 방향을 조절할지 키보드로 조절할지 선택
 
+    private UseBooster _useBooster;
+
     private Rigidbody _rb;
     private AudioSource _audioSource;
 
     public bool isBooster = false;
 
-    private void Start()
+    private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
         _audioSource = GetComponent<AudioSource>();
+        _useBooster = GetComponent<UseBooster>();
     }
 
     private void Update()
     {
+        if (_useBooster.nowBooster < 0)
+        {
+            StopThrust();
+            isBooster = false;
+            return;
+        }
+
         if (_rotation == Rotation.pc) //PC 상태일때
         {
             ProcessRotation();
