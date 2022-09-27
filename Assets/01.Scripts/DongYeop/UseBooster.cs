@@ -41,4 +41,9 @@ public class UseBooster : MonoBehaviour
     {
         _slider.value = nowBooster/_maxBooster;
     }
+
+    public void AddBooster(int addBooster) // 블럭 클리어떄 같이 실행시켜줄 현제 부스터량 늘리는 스크립트
+    {
+        nowBooster += addBooster;
+    }
 }
