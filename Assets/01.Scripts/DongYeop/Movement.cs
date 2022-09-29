@@ -132,4 +132,10 @@ public class Movement : MonoBehaviour
         _audioSource.Stop();
         _mainEngineParticles.Stop();
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Fueltank"))
+            _useBooster.AddBooster(25);
+    }
 }
