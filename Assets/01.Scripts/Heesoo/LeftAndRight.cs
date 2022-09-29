@@ -22,7 +22,7 @@ public class LeftAndRight : MonoBehaviour
     {
         if(Time.deltaTime <= delayTime)
         {
-            transform.position = new Vector3(transform.position.x + 0.1f * a, transform.position.y, 25);
+            transform.position = new Vector3(transform.position.x + 0.1f * a, transform.position.y, transform.position.z);
             if(transform.position.x >= 7)
             {
                 a = -1;
