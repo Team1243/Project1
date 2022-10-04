@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 115
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 129
+  controlID: 91
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,8 +191,8 @@ MonoBehaviour:
     y: 481
     width: 907
     height: 458
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 21
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -619,9 +619,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 7.0182505, y: 47.345978, z: 227.74788}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 7.0182505, y: 47.345978, z: 227.74788}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -663,18 +663,18 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.031104745, y: -0.3571279, z: 0.011900058, w: -0.9334622}
+    m_Target: {x: 0.08208312, y: -0.018837554, z: -0.0015517069, w: -0.9964451}
     speed: 2
-    m_Value: {x: -0.03110473, y: -0.35712773, z: 0.011900052, w: -0.9334618}
+    m_Value: {x: 0.08208321, y: -0.018837575, z: -0.0015517087, w: -0.99644625}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 132.16278
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 132.16278
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -692,7 +692,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.17398004, y: -0.101138204, z: 0.017966593, w: -0.9793765}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -730,9 +730,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b0010000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 92faffff94faffff
+      m_ExpandedIDs: 5aebffffdcf9ffff22faffff18fbffff764f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -797,22 +797,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/01.Scripts/DongYeop
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/01.Scripts/DongYeop
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\GAME_DEVELOPMENT\GitHub\Project1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 6}
-    m_SelectedIDs: b44f0000
-    m_LastClickedID: 20404
-    m_ExpandedIDs: 00000000b44f0000b64f0000b84f0000ba4f0000bc4f0000be4f0000c04f0000c24f0000c44f0000c64f0000c84f0000f44f000000ca9a3b
+    scrollPos: {x: 0, y: 54}
+    m_SelectedIDs: de4e0000
+    m_LastClickedID: 20190
+    m_ExpandedIDs: 00000000be4e0000c04e0000c24e0000c44e0000c64e0000c84e0000ca4e0000cc4e0000ce4e0000d04e0000d24e0000f44e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -840,7 +840,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b44f0000b64f0000b84f0000ba4f0000bc4f0000be4f0000c04f0000c24f0000c44f0000c64f0000c84f0000
+    m_ExpandedIDs: 00000000be4e0000c04e0000c24e0000c44e0000c64e0000c84e0000ca4e0000cc4e0000ce4e0000d04e0000d24e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
