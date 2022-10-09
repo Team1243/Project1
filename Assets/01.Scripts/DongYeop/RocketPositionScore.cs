@@ -6,11 +6,13 @@ using TMPro;
 public class RocketPositionScore : MonoBehaviour
 {
     private TextMeshProUGUI _text;
+    private float _firstPosY;
     private int _thisPosY;
 
     private void Awake()
     {
         _text = GameObject.Find("ThisPosText").GetComponent<TextMeshProUGUI>();
+        _firstPosY = transform.position.y;
     }
 
     private void Update()
@@ -21,7 +23,7 @@ public class RocketPositionScore : MonoBehaviour
 
     private void RocketScoreNow()
     {
-        _thisPosY = (int)transform.position.y / 10;
+        _thisPosY = ((int)transform.position.y - (int)_firstPosY) / 10;
         _text.text = _thisPosY.ToString();
     }
 
