@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1498028073447641811}
   - component: {fileID: 5730844231776239523}
   - component: {fileID: 1367494014756897941}
+  - component: {fileID: 7175759266402014644}
   m_Layer: 0
   m_Name: SizeChangeBlock
   m_TagString: Untagged
@@ -114,3 +115,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &7175759266402014644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484159631311265401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636aaf82192f1fa43b773b2b44c9e7a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _endSIze: {x: 3, y: 3, z: 3}
+  _resizeTime: 3
